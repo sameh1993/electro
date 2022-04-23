@@ -1,0 +1,254 @@
+<script>
+import $ from "jquery"
+
+
+
+export default {
+    data() {
+        return {
+            category: "best"
+        }
+    },
+    mounted() {
+        // $(".tabs li").click(function () {
+        //     this.category = $(this).attr("data-category")
+        //     $(this).addClass("active").siblings("li").removeClass("active")
+        // })
+    }
+}
+</script>
+
+<template>
+    <section class="products-2-1-2 animate-in-view fadeIn animated" data-animation="fadeIn">
+        <h2 class="sr-only">Products Grid</h2>
+        <div class="container">
+
+            <ul class="nav nav-inline nav-justified">
+
+                <li class="nav-item"><a href="shop.html" class="active nav-link">Best Deals</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">TV &amp; Audio</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Cameras</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Audio</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Smartphones</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">GPS &amp; Navi</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Computers</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Portable Audio</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Accessories</a></li>
+
+            </ul>
+
+            <div class="columns-2-1-2">
+                <ul class="products exclude-auto-height">
+                    <li class="product">
+                        <div class="product-outer" style="height: 355px;">
+                            <div class="product-inner">
+                                <span class="loop-product-categories"><a href="product-category.html"
+                                        rel="tag">Smartphones</a></span>
+                                <a href="single-product.html">
+                                    <h3>Notebook Black Spire V Nitro VN7-591G</h3>
+                                    <div class="product-thumbnail">
+
+                                        <img src="@/assets/images/product-2-1-2/1.jpg" alt="">
+
+                                    </div>
+                                </a>
+
+                                <div class="price-add-to-cart">
+                                    <span class="price">
+                                        <span class="electro-price">
+                                            <ins><span class="amount">$1,999.00</span></ins>
+                                            <del><span class="amount">$2,299.00</span></del>
+                                        </span>
+                                    </span>
+                                    <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add
+                                        to cart</a>
+                                </div><!-- /.price-add-to-cart -->
+
+                                <div class="hover-area">
+                                    <div class="action-buttons">
+
+                                        <a href="#" rel="nofollow" class="add_to_wishlist">
+                                            Wishlist</a>
+
+                                        <a href="#" class="add-to-compare-link">Compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-inner -->
+                        </div><!-- /.product-outer -->
+                    </li>
+                    <li class="product">
+                        <div class="product-outer" style="height: 355px;">
+                            <div class="product-inner">
+                                <span class="loop-product-categories"><a href="product-category.html"
+                                        rel="tag">Smartphones</a></span>
+                                <a href="single-product.html">
+                                    <h3>Notebook Black Spire V Nitro VN7-591G</h3>
+                                    <div class="product-thumbnail">
+
+                                        <img src="@/assets/images/product-2-1-2/4.jpg" alt="">
+
+                                    </div>
+                                </a>
+
+                                <div class="price-add-to-cart">
+                                    <span class="price">
+                                        <span class="electro-price">
+                                            <ins><span class="amount">$1,999.00</span></ins>
+                                            <del><span class="amount">$2,299.00</span></del>
+                                        </span>
+                                    </span>
+                                    <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add
+                                        to cart</a>
+                                </div><!-- /.price-add-to-cart -->
+
+                                <div class="hover-area">
+                                    <div class="action-buttons">
+
+                                        <a href="#" rel="nofollow" class="add_to_wishlist">
+                                            Wishlist</a>
+
+                                        <a href="#" class="add-to-compare-link">Compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-inner -->
+                        </div><!-- /.product-outer -->
+                    </li>
+                </ul>
+
+                <ul class="products exclude-auto-height product-main-2-1-2">
+                    <li class="last product">
+                        <div class="product-outer" style="height: 720px;">
+                            <div class="product-inner">
+                                <span class="loop-product-categories"><a href="product-category.html"
+                                        rel="tag">Smartphones</a></span>
+                                <a href="single-product.html">
+                                    <h3>Notebook Black Spire V Nitro VN7-591G</h3>
+                                    <div class="product-thumbnail">
+                                        <img class="wp-post-image" src="@/assets/images/product-2-1-2/main.jpg" alt="">
+
+                                    </div>
+                                </a>
+
+                                <div class="price-add-to-cart">
+                                    <span class="price">
+                                        <span class="electro-price">
+                                            <ins><span class="amount">$1,999.00</span></ins>
+                                            <del><span class="amount">$2,299.00</span></del>
+                                        </span>
+                                    </span>
+                                    <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add
+                                        to cart</a>
+                                </div><!-- /.price-add-to-cart -->
+
+                                <div class="hover-area">
+                                    <div class="action-buttons">
+
+                                        <a href="#" rel="nofollow" class="add_to_wishlist">
+                                            Wishlist</a>
+
+                                        <a href="#" class="add-to-compare-link">Compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-inner -->
+                        </div><!-- /.product-outer -->
+                    </li>
+                </ul>
+
+                <ul class="products exclude-auto-height">
+                    <li class="product">
+                        <div class="product-outer" style="height: 355px;">
+                            <div class="product-inner">
+                                <span class="loop-product-categories"><a href="product-category.html"
+                                        rel="tag">Smartphones</a></span>
+                                <a href="single-product.html">
+                                    <h3>Notebook Black Spire V Nitro VN7-591G</h3>
+                                    <div class="product-thumbnail">
+
+                                        <img class="wp-post-image" src="@/assets/images/product-2-1-2/1.jpg" alt="">
+
+
+                                    </div>
+                                </a>
+
+                                <div class="price-add-to-cart">
+                                    <span class="price">
+                                        <span class="electro-price">
+                                            <ins><span class="amount">$1,999.00</span></ins>
+                                            <del><span class="amount">$2,299.00</span></del>
+                                        </span>
+                                    </span>
+                                    <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add
+                                        to cart</a>
+                                </div><!-- /.price-add-to-cart -->
+
+                                <div class="hover-area">
+                                    <div class="action-buttons">
+
+                                        <a href="#" rel="nofollow" class="add_to_wishlist">
+                                            Wishlist</a>
+
+                                        <a href="#" class="add-to-compare-link">Compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-inner -->
+                        </div><!-- /.product-outer -->
+                    </li>
+                    <li class="product">
+                        <div class="product-outer" style="height: 355px;">
+                            <div class="product-inner">
+                                <span class="loop-product-categories"><a href="product-category.html"
+                                        rel="tag">Smartphones</a></span>
+                                <a href="single-product.html">
+                                    <h3>Notebook Black Spire V Nitro VN7-591G</h3>
+                                    <div class="product-thumbnail">
+
+                                        <img class="wp-post-image" src="@/assets/images/product-2-1-2/4.jpg" alt="">
+
+
+                                    </div>
+                                </a>
+
+                                <div class="price-add-to-cart">
+                                    <span class="price">
+                                        <span class="electro-price">
+                                            <ins><span class="amount">$1,999.00</span></ins>
+                                            <del><span class="amount">$2,299.00</span></del>
+                                        </span>
+                                    </span>
+                                    <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add
+                                        to cart</a>
+                                </div><!-- /.price-add-to-cart -->
+
+                                <div class="hover-area">
+                                    <div class="action-buttons">
+
+                                        <a href="#" rel="nofollow" class="add_to_wishlist">
+                                            Wishlist</a>
+
+                                        <a href="#" class="add-to-compare-link">Compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-inner -->
+                        </div><!-- /.product-outer -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</template>
+
+<style scoped>
+
+.products-2-1-2 .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.categories .nav-link {
+    color: #333e48;
+    display: block;
+    text-align: center;
+    padding-bottom: 1.176em;
+    position: relative;
+}
+</style>
