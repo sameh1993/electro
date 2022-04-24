@@ -9,7 +9,7 @@ export default {
         
     },
     components: {
-        footerWidgets,
+        // footerWidgets,
         footerNewsletter,
         footerBottomWidgets,
         copyrightBar
@@ -19,7 +19,7 @@ export default {
 
 
 <template>
-    <div class="site-footer" id="colophon">
+    <div class="site-footer xs-text-center" id="colophon">
 
         <!-- start footer widgets -->
         <footer-widgets />

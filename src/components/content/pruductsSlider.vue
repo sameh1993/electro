@@ -1,177 +1,252 @@
 <script>
-import { RouterLink }  from "vue-router"
-import $ from "jquery"
 
-import featuredProducts from "@/components/content/products/featured-products.vue"
-import onSaleProducts from "@/components/content/products/onSale-products.vue";
-import topRaledProducts from "@/components/content/products/top-raled-products.vue"
 
 export default {
-    data(){
-      return {
-        status:"featured"
-      }
-    },
-    components: {
-      featuredProducts,
-      onSaleProducts,
-      topRaledProducts
-    },
-    mounted(){
-      $(".products-carousel-tabs .nav-inline .nav-item").click(function () {
-        this.status = $(this).attr('data-status')
-        $(this).addClass("active").siblings("li").removeClass("active")
-        console.log(this.status)
-      })
+  data() {
+    return {
+      status: "featured"
     }
+  },
+  computed: {
+    currentComponnet() {
+      return this.status
+    }
+  },
+  // mounted() {
+  //   $(".products-carousel-tabs .nav-inline .nav-item").click(function () {
+  //     this.status = $(this).attr('data-status')
+  //     $(this).addClass("active").siblings("li").removeClass("active")
+  //     console.log(this.status)
+  //   })
+  // }
 }
 </script>
 
 
 <template>
-  <div class="products">
-    <div class="container">
-        <div
-    class="
-      home-v1-deals-and-tabs
-      deals-and-tabs
-      row
-      animate-in-view
-      fadeIn
-      animated
-    "
-    data-animation="fadeIn"
-  >
-    <div class="deals-block col-lg-4">
-      <section class="section-onsale-product">
-        <header>
-          <h2 class="h1">Special Offer</h2>
-          <div class="savings">
-            <span class="savings-text"
-              >Save <span class="amount">$20.00</span></span
-            >
-          </div>
-        </header>
-        <!-- /header -->
+  <div class="owl-stage-outer">
+    <div class="owl-stage"
+      style="transform: translate3d(575.334px, 0px, 0px); transition: all 0.5s ease 0s; width: 1439px;">
+      <div class="owl-item" style="width: 287.667px;">
+        <div class="product ">
+          <div class="product-outer" style="height: 404px;">
+            <div class="product-inner">
+              <span class="loop-product-categories"><a href="https://www.d2020.net/last_version/sub/33"
+                  rel="tag">حلويات</a></span>
+              <a href="https://www.d2020.net/last_version/details/87940" style="color:black">
+                <h3>حلويات ركن القصيم - جدة</h3>
 
-        <div class="onsale-products">
-          <div class="onsale-product">
-            <a href="shop.html">
-              <div class="product-thumbnail">
-                <img
-                  class="wp-post-image"
-                  src="@/assets/images/onsale-product.jpg"
-                  alt=""
-                />
+                <div class="product-thumbnail">
+                  <img
+                    src="https://www.d2020.net/last_version/uploads/164145990765712079b390484535e2df1f6b901aef881b1a2c.jpg"
+                    onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                    style="height:150px " class="img-responsive" alt="حلويات ركن القصيم">
+                </div>
+              </a>
+
+              <div class="price-add-to-cart">
+                <span class="price">
+                  <span class="electro-price">
+                    <ins><span class="amount">
+                        <div class="star-rating" title="">
+
+                          <span style="width:0%">
+                            <strong itemprop="ratingValue" class="rating">4</strong><span itemprop="bestRating">5</span>
+
+                          </span>
+                        </div>
+                      </span></ins>
+                    <span class="amount"> </span>
+                  </span>
+                </span>
+                <a rel="nofollow" style="color: #FDB133 !important;"
+                  href="https://www.d2020.net/last_version/user/wishlist/87940" class="nav-link"><i
+                    class="ec ec-favorites"></i></a>
+              </div><!-- /.price-add-to-cart -->
+
+              <div class="hover-area">
+                <div class="action-buttons">
+
+
+                </div>
               </div>
-
-              <h3>Game Console Controller <br />+ USB 3.0 Cable</h3>
-            </a>
-
-            <span class="price">
-              <span class="electro-price">
-                <ins><span class="amount">$79.00</span></ins>
-                <del><span class="amount">$99.00</span></del>
-              </span> </span
-            ><!-- /.price -->
-
-            <div class="deal-progress">
-              <div class="deal-stock">
-                <span class="stock-sold">Already Sold: <strong>2</strong></span>
-                <span class="stock-available"
-                  >Available: <strong>26</strong></span
-                >
-              </div>
-
-              <div class="progress">
-                <span class="progress-bar" style="width: 8%">8</span>
-              </div>
-            </div>
-            <!-- /.deal-progress -->
-
-            <div class="deal-countdown-timer">
-              <div class="marketing-text text-xs-center">
-                Hurry Up! Offer ends in:
-              </div>
-
-              <div id="deal-countdown" class="countdown">
-                <span data-value="-1938" class="days"
-                  ><span class="value">-1938</span><b>Days</b></span
-                ><span class="hours"
-                  ><span class="value">-20</span><b>Hours</b></span
-                ><span class="minutes"
-                  ><span class="value">-41</span><b>Mins</b></span
-                ><span class="seconds"
-                  ><span class="value">-30</span><b>Secs</b></span
-                >
-              </div>
-              <span class="deal-end-date" style="display: none"
-                >2016-12-31</span
-              >
-
-            </div>
-            <!-- /.deal-countdown-timer -->
-          </div>
-          <!-- /.onsale-product -->
-        </div>
-        <!-- /.onsale-products -->
-      </section>
-      <!-- /.section-onsale-product -->
-    </div>
-    <!-- /.col -->
-
-    <div class="tabs-block col-lg-8">
-      <div class="products-carousel-tabs">
-        <ul class="nav nav-inline">
-          <li data-status="featured" class="nav-item active">
-            featured
-          </li>
-          <li data-status="sale" class="nav-item">
-            on sale
-          </li>
-          <li data-status="raled" class="nav-item">
-              top rated
-          </li>
-        </ul>
-
-        <div class="component">
-          <featuredProducts v-if="status == 'featured' " />
-
-          <onSaleProducts v-if="status == 'sale' "  />
-
-          <topRaledProducts v-if="status == 'raled' " />
+            </div><!-- /.product-inner -->
+          </div><!-- /.product-outer -->
         </div>
       </div>
-    </div>
-    <!-- /.tabs-block -->
-  </div>
+      <div class="owl-item" style="width: 287.667px;">
+        <div class="product ">
+          <div class="product-outer" style="height: 398px;">
+            <div class="product-inner">
+              <span class="loop-product-categories"><a href="https://www.d2020.net/last_version/sub/79" rel="tag">تجميل
+                  و عطور واكسسوارات</a></span>
+              <a href="https://www.d2020.net/last_version/details/88380" style="color:black">
+                <h3>نكتار - جدة</h3>
+
+                <div class="product-thumbnail">
+                  <img
+                    src="https://www.d2020.net/last_version/uploads/164140115769110cb0a217f9629410405fd14cdabbcd251f4c.jpg"
+                    onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                    style="height:150px " class="img-responsive" alt="نكتار">
+                </div>
+              </a>
+
+              <div class="price-add-to-cart">
+                <span class="price">
+                  <span class="electro-price">
+                    <ins><span class="amount">
+                        <div class="star-rating" title="">
+
+                          <span style="width:0%">
+                            <strong itemprop="ratingValue" class="rating">4</strong><span itemprop="bestRating">5</span>
+
+                          </span>
+                        </div>
+                      </span></ins>
+                    <span class="amount"> </span>
+                  </span>
+                </span>
+                <a rel="nofollow" style="color: #FDB133 !important;"
+                  href="https://www.d2020.net/last_version/user/wishlist/88380" class="nav-link"><i
+                    class="ec ec-favorites"></i></a>
+              </div><!-- /.price-add-to-cart -->
+
+              <div class="hover-area">
+                <div class="action-buttons">
+
+
+                </div>
+              </div>
+            </div><!-- /.product-inner -->
+          </div><!-- /.product-outer -->
+        </div>
+      </div>
+      <div class="owl-item active" style="width: 287.667px;">
+        <div class="product ">
+          <div class="product-outer" style="height: 398px;">
+            <div class="product-inner">
+              <span class="loop-product-categories"><a href="https://www.d2020.net/last_version/sub/3"
+                  rel="tag">مطاعم</a></span>
+              <a href="https://www.d2020.net/last_version/details/106676" style="color:black">
+                <h3>دومينوز - مكة</h3>
+
+                <div class="product-thumbnail">
+                  <img
+                    src="https://www.d2020.net/last_version/uploads/1641055237a4008be78508deec557aec375d8e666b60d41cfd.jpg"
+                    onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                    style="height:150px " class="img-responsive" alt="دومينوز">
+                </div>
+              </a>
+
+              <div class="price-add-to-cart">
+                <span class="price">
+                  <span class="electro-price">
+                    <ins><span class="amount">
+                        <div class="star-rating" title="">
+
+                          <span style="width:0%">
+                            <strong itemprop="ratingValue" class="rating">4</strong><span itemprop="bestRating">5</span>
+
+                          </span>
+                        </div>
+                      </span></ins>
+                    <span class="amount"> </span>
+                  </span>
+                </span>
+                <a rel="nofollow" style="color: #FDB133 !important;"
+                  href="https://www.d2020.net/last_version/user/wishlist/106676" class="nav-link"><i
+                    class="ec ec-favorites"></i></a>
+              </div><!-- /.price-add-to-cart -->
+
+              <div class="hover-area">
+                <div class="action-buttons">
+
+
+                </div>
+              </div>
+            </div><!-- /.product-inner -->
+          </div><!-- /.product-outer -->
+        </div>
+      </div>
+      <div class="owl-item active last-active" style="width: 287.667px;">
+        <div class="product">
+          <div class="product-outer" style="height: 398px;">
+            <div class="product-inner"><span class="loop-product-categories"><a
+                  href="https://www.d2020.net/last_version/sub/3" rel="tag">مطاعم</a></span><a
+                href="https://www.d2020.net/last_version/details/106676" style="color: black;">
+                <h3>دومينوز - مكة</h3>
+                <div class="product-thumbnail"><img
+                    src="https://www.d2020.net/last_version/uploads/1641055237a4008be78508deec557aec375d8e666b60d41cfd.jpg"
+                    onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                    class="img-responsive" alt="دومينوز" style="height: 150px;"></div>
+              </a>
+              <div class="price-add-to-cart"><span class="price"><span class="electro-price"><ins><span class="amount">
+                        <div class="star-rating" title=""><span style="width: 0%;"><strong itemprop="ratingValue"
+                              class="rating">4</strong><span itemprop="bestRating">5</span></span></div>
+                      </span></ins><span class="amount"></span></span></span><a rel="nofollow"
+                  href="https://www.d2020.net/last_version/user/wishlist/106676" class="nav-link"
+                  style="color: rgb(253, 177, 51) !important;"><i class="ec ec-favorites"></i></a></div>
+              <!-- /.price-add-to-cart -->
+              <div class="hover-area">
+                <div class="action-buttons"></div>
+              </div>
+            </div><!-- /.product-inner -->
+          </div><!-- /.product-outer -->
+        </div>
+      </div>
+      <div class="owl-item active last-active" style="width: 287.667px;">
+        <div class="product">
+          <div class="product-outer" style="height: 398px;">
+            <div class="product-inner"><span class="loop-product-categories"><a
+                  href="https://www.d2020.net/last_version/sub/3" rel="tag">مطاعم</a></span><a
+                href="https://www.d2020.net/last_version/details/106676" style="color: black;">
+                <h3>دومينوز - مكة</h3>
+                <div class="product-thumbnail"><img
+                    src="https://www.d2020.net/last_version/uploads/1641055237a4008be78508deec557aec375d8e666b60d41cfd.jpg"
+                    onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                    class="img-responsive" alt="دومينوز" style="height: 150px;"></div>
+              </a>
+              <div class="price-add-to-cart"><span class="price"><span class="electro-price"><ins><span class="amount">
+                        <div class="star-rating" title=""><span style="width: 0%;"><strong itemprop="ratingValue"
+                              class="rating">4</strong><span itemprop="bestRating">5</span></span></div>
+                      </span></ins><span class="amount"></span></span></span><a rel="nofollow"
+                  href="https://www.d2020.net/last_version/user/wishlist/106676" class="nav-link"
+                  style="color: rgb(253, 177, 51) !important;"><i class="ec ec-favorites"></i></a></div>
+              <!-- /.price-add-to-cart -->
+              <div class="hover-area">
+                <div class="action-buttons"></div>
+              </div>
+            </div><!-- /.product-inner -->
+          </div><!-- /.product-outer -->
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-
 .products-carousel-tabs .nav-inline {
-  display:flex;
-  justify-content : center;
+  display: flex;
+  justify-content: center;
 }
+
 .products-carousel-tabs .nav-inline .nav-item {
-  margin: 0 ;
-  padding:13px;
+  margin: 0;
+  padding: 13px;
   text-transform: capitalize;
-    color: #333e48;
-    font-size: 1.429em;
-    line-height: 0.9em;
-    padding-bottom: 1em;
+  color: #333e48;
+  font-size: 1.429em;
+  line-height: 0.9em;
+  padding-bottom: 1em;
 }
 
 .products-carousel-tabs .nav-inline .nav-item.active {
-      font-weight: bold;
-      position: relative;
-      border-bottom: 2px solid #fed700;
+  font-weight: bold;
+  position: relative;
+  border-bottom: 2px solid #fed700;
 }
 
-.products-carousel-tabs .nav-inline .nav-item + .nav-item {
+.products-carousel-tabs .nav-inline .nav-item+.nav-item {
   margin-left: 0;
 }
 </style>

@@ -1,216 +1,192 @@
 <template>
-  <div class="tab-pane active" id="tab-products-1" role="tabpanel" aria-expanded="true">
-    <div class="woocommerce columns-3">
+  <ul class="products columns-3">
+    <div class="owl-item active" style="width: 287.667px;">
+      <div class="product ">
+        <div class="product-outer" style="height: 404px;">
+          <div class="product-inner">
+            <span class="loop-product-categories"><a href="https://www.d2020.net/last_version/sub/33"
+                rel="tag">حلويات</a></span>
+            <a href="https://www.d2020.net/last_version/details/87940" style="color:black">
+              <h3>حلويات ركن القصيم - جدة</h3>
 
-      <ul class="products columns-3">
-
-
-        <li class="product first">
-          <div class="product-outer" style="height: 363px;">
-            <div class="product-inner">
-              <span class="loop-product-categories"><a href="product-category.html" rel="tag">Audio Speakers</a></span>
-              <a href="single-product.html">
-                <h3>Wireless Audio System Multiroom 360</h3>
-                <div class="product-thumbnail">
-                  <img src="@/assets/images/products/1.jpg" class="img-responsive" alt="">
-                </div>
-              </a>
-
-              <div class="price-add-to-cart">
-                <span class="price">
-                  <span class="electro-price">
-                    <ins><span class="amount"> $1,999.00</span></ins>
-                    <del><span class="amount">$2,299.00</span></del>
-                    <span class="amount"> </span>
-                  </span>
-                </span>
-                <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
-              </div><!-- /.price-add-to-cart -->
-
-              <div class="hover-area">
-                <div class="action-buttons">
-
-                  <a href="#" rel="nofollow" class="add_to_wishlist"> Wishlist</a>
-
-                  <a href="compare.html" class="add-to-compare-link"> Compare</a>
-                </div>
+              <div class="product-thumbnail">
+                <img
+                  src="https://www.d2020.net/last_version/uploads/164145990765712079b390484535e2df1f6b901aef881b1a2c.jpg"
+                  onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                  style="height:150px " class="img-responsive" alt="حلويات ركن القصيم">
               </div>
-            </div><!-- /.product-inner -->
-          </div><!-- /.product-outer -->
-        </li><!-- /.products -->
+            </a>
 
+            <div class="price-add-to-cart">
+              <span class="price">
+                <span class="electro-price">
+                  <ins><span class="amount">
+                      <div class="star-rating" title="">
 
-        <li class="product ">
-          <div class="product-outer" style="height: 363px;">
-            <div class="product-inner">
-              <span class="loop-product-categories"><a href="product-category.html" rel="tag">Laptops</a></span>
-              <a href="single-product.html">
-                <h3>Tablet Red EliteBook Revolve 810 G2</h3>
-                <div class="product-thumbnail">
-                  <img src="@/assets/images/products/2.jpg" class="img-responsive" alt="">
-                </div>
-              </a>
+                        <span style="width:0%">
+                          <strong itemprop="ratingValue" class="rating">4</strong><span itemprop="bestRating">5</span>
 
-              <div class="price-add-to-cart">
-                <span class="price">
-                  <span class="electro-price">
-                    <ins><span class="amount"> $1,999.00</span></ins>
-                    <del><span class="amount">$2,299.00</span></del>
-                    <span class="amount"> </span>
-                  </span>
+                        </span>
+                      </div>
+                    </span></ins>
+                  <span class="amount"> </span>
                 </span>
-                <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
-              </div><!-- /.price-add-to-cart -->
+              </span>
+              <a rel="nofollow" style="color: #FDB133 !important;"
+                href="https://www.d2020.net/last_version/user/wishlist/87940" class="nav-link"><i
+                  class="ec ec-favorites"></i></a>
+            </div><!-- /.price-add-to-cart -->
 
-              <div class="hover-area">
-                <div class="action-buttons">
+            <div class="hover-area">
+              <div class="action-buttons">
 
-                  <a href="#" rel="nofollow" class="add_to_wishlist"> Wishlist</a>
 
-                  <a href="compare.html" class="add-to-compare-link"> Compare</a>
-                </div>
               </div>
-            </div><!-- /.product-inner -->
-          </div><!-- /.product-outer -->
-        </li><!-- /.products -->
-
-
-        <li class="product last">
-          <div class="product-outer" style="height: 363px;">
-            <div class="product-inner">
-              <span class="loop-product-categories"><a href="product-category.html" rel="tag">Headphones</a></span>
-              <a href="single-product.html">
-                <h3>White Solo 2 Wireless</h3>
-                <div class="product-thumbnail">
-                  <img src="@/assets/images/products/3.jpg" class="img-responsive" alt="">
-                </div>
-              </a>
-
-              <div class="price-add-to-cart">
-                <span class="price">
-                  <span class="electro-price">
-                    <ins><span class="amount"> </span></ins>
-                    <span class="amount"> $1,999.00</span>
-                  </span>
-                </span>
-                <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
-              </div><!-- /.price-add-to-cart -->
-
-              <div class="hover-area">
-                <div class="action-buttons">
-
-                  <a href="#" rel="nofollow" class="add_to_wishlist"> Wishlist</a>
-
-                  <a href="compare.html" class="add-to-compare-link"> Compare</a>
-                </div>
-              </div>
-            </div><!-- /.product-inner -->
-          </div><!-- /.product-outer -->
-        </li><!-- /.products -->
-
-
-        <li class="product first">
-          <div class="product-outer" style="height: 363px;">
-            <div class="product-inner">
-              <span class="loop-product-categories"><a href="product-category.html" rel="tag">Smartphones</a></span>
-              <a href="single-product.html">
-                <h3>Smartphone 6S 32GB LTE</h3>
-                <div class="product-thumbnail">
-                  <img src="@/assets/images/products/4.jpg" class="img-responsive" alt="">
-                </div>
-              </a>
-
-              <div class="price-add-to-cart">
-                <span class="price">
-                  <span class="electro-price">
-                    <ins><span class="amount"> $1,215.00</span></ins>
-                    <del><span class="amount">$2,215.00</span></del>
-                    <span class="amount"> </span>
-                  </span>
-                </span>
-                <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
-              </div><!-- /.price-add-to-cart -->
-
-              <div class="hover-area">
-                <div class="action-buttons">
-
-                  <a href="#" rel="nofollow" class="add_to_wishlist"> Wishlist</a>
-
-                  <a href="compare.html" class="add-to-compare-link"> Compare</a>
-                </div>
-              </div>
-            </div><!-- /.product-inner -->
-          </div><!-- /.product-outer -->
-        </li><!-- /.products -->
-
-
-        <li class="product ">
-          <div class="product-outer" style="height: 363px;">
-            <div class="product-inner">
-              <span class="loop-product-categories"><a href="product-category.html" rel="tag">Cameras</a></span>
-              <a href="single-product.html">
-                <h3>Purple NX Mini F1 aparat SMART NX</h3>
-                <div class="product-thumbnail">
-                  <img src="@/assets/images/products/5.jpg" class="img-responsive" alt="">
-                </div>
-              </a>
-
-              <div class="price-add-to-cart">
-                <span class="price">
-                  <span class="electro-price">
-                    <ins><span class="amount"> </span></ins>
-                    <span class="amount"> $1,999.00</span>
-                  </span>
-                </span>
-                <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
-              </div><!-- /.price-add-to-cart -->
-
-              <div class="hover-area">
-                <div class="action-buttons">
-
-                  <a href="#" rel="nofollow" class="add_to_wishlist"> Wishlist</a>
-
-                  <a href="compare.html" class="add-to-compare-link"> Compare</a>
-                </div>
-              </div>
-            </div><!-- /.product-inner -->
-          </div><!-- /.product-outer -->
-        </li><!-- /.products -->
-
-
-        <li class="product last">
-          <div class="product-outer" style="height: 363px;">
-            <div class="product-inner">
-              <span class="loop-product-categories"><a href="product-category.html" rel="tag">Printers</a></span>
-              <a href="single-product.html">
-                <h3>Full Color LaserJet Pro M452dn</h3>
-                <div class="product-thumbnail">
-                  <img src="@/assets/images/products/6.jpg" class="img-responsive" alt="">
-                </div>
-              </a>
-
-              <div class="price-add-to-cart">
-                <span class="price">
-                  <span class="electro-price">
-                    <ins><span class="amount"> </span></ins>
-                    <span class="amount"> $1,999.00</span>
-                  </span>
-                </span>
-                <a rel="nofollow" href="single-product.html" class="button add_to_cart_button">Add to cart</a>
-              </div><!-- /.price-add-to-cart -->
-
-              <div class="hover-area">
-                <div class="action-buttons">
-
-                  <a href="#" rel="nofollow" class="add_to_wishlist"> Wishlist</a>
-
-                  <a href="compare.html" class="add-to-compare-link"> Compare</a>
-                </div>
-              </div>
-            </div><!-- /.product-inner -->
-          </div><!-- /.product-outer -->
-        </li><!-- /.products -->
-      </ul>
+            </div>
+          </div><!-- /.product-inner -->
+        </div><!-- /.product-outer -->
+      </div>
     </div>
-  </div>
+    <div class="owl-item active" style="width: 287.667px;">
+      <div class="product ">
+        <div class="product-outer" style="height: 404px;">
+          <div class="product-inner">
+            <span class="loop-product-categories"><a href="https://www.d2020.net/last_version/sub/33"
+                rel="tag">حلويات</a></span>
+            <a href="https://www.d2020.net/last_version/details/87940" style="color:black">
+              <h3>حلويات ركن القصيم - جدة</h3>
+
+              <div class="product-thumbnail">
+                <img
+                  src="https://www.d2020.net/last_version/uploads/164145990765712079b390484535e2df1f6b901aef881b1a2c.jpg"
+                  onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                  style="height:150px " class="img-responsive" alt="حلويات ركن القصيم">
+              </div>
+            </a>
+
+            <div class="price-add-to-cart">
+              <span class="price">
+                <span class="electro-price">
+                  <ins><span class="amount">
+                      <div class="star-rating" title="">
+
+                        <span style="width:0%">
+                          <strong itemprop="ratingValue" class="rating">4</strong><span itemprop="bestRating">5</span>
+
+                        </span>
+                      </div>
+                    </span></ins>
+                  <span class="amount"> </span>
+                </span>
+              </span>
+              <a rel="nofollow" style="color: #FDB133 !important;"
+                href="https://www.d2020.net/last_version/user/wishlist/87940" class="nav-link"><i
+                  class="ec ec-favorites"></i></a>
+            </div><!-- /.price-add-to-cart -->
+
+            <div class="hover-area">
+              <div class="action-buttons">
+
+
+              </div>
+            </div>
+          </div><!-- /.product-inner -->
+        </div><!-- /.product-outer -->
+      </div>
+    </div>
+    <div class="owl-item active" style="width: 287.667px;">
+      <div class="product ">
+        <div class="product-outer" style="height: 404px;">
+          <div class="product-inner">
+            <span class="loop-product-categories"><a href="https://www.d2020.net/last_version/sub/33"
+                rel="tag">حلويات</a></span>
+            <a href="https://www.d2020.net/last_version/details/87940" style="color:black">
+              <h3>حلويات ركن القصيم - جدة</h3>
+
+              <div class="product-thumbnail">
+                <img
+                  src="https://www.d2020.net/last_version/uploads/164145990765712079b390484535e2df1f6b901aef881b1a2c.jpg"
+                  onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                  style="height:150px " class="img-responsive" alt="حلويات ركن القصيم">
+              </div>
+            </a>
+
+            <div class="price-add-to-cart">
+              <span class="price">
+                <span class="electro-price">
+                  <ins><span class="amount">
+                      <div class="star-rating" title="">
+
+                        <span style="width:0%">
+                          <strong itemprop="ratingValue" class="rating">4</strong><span itemprop="bestRating">5</span>
+
+                        </span>
+                      </div>
+                    </span></ins>
+                  <span class="amount"> </span>
+                </span>
+              </span>
+              <a rel="nofollow" style="color: #FDB133 !important;"
+                href="https://www.d2020.net/last_version/user/wishlist/87940" class="nav-link"><i
+                  class="ec ec-favorites"></i></a>
+            </div><!-- /.price-add-to-cart -->
+
+            <div class="hover-area">
+              <div class="action-buttons">
+
+
+              </div>
+            </div>
+          </div><!-- /.product-inner -->
+        </div><!-- /.product-outer -->
+      </div>
+    </div>
+    <div class="owl-item active" style="width: 287.667px;">
+      <div class="product ">
+        <div class="product-outer" style="height: 404px;">
+          <div class="product-inner">
+            <span class="loop-product-categories"><a href="https://www.d2020.net/last_version/sub/33"
+                rel="tag">حلويات</a></span>
+            <a href="https://www.d2020.net/last_version/details/87940" style="color:black">
+              <h3>حلويات ركن القصيم - جدة</h3>
+
+              <div class="product-thumbnail">
+                <img
+                  src="https://www.d2020.net/last_version/uploads/164145990765712079b390484535e2df1f6b901aef881b1a2c.jpg"
+                  onerror="this.onerror=null;this.src='https://www.d2020.net/last_version/frontend/default.jpg';"
+                  style="height:150px " class="img-responsive" alt="حلويات ركن القصيم">
+              </div>
+            </a>
+
+            <div class="price-add-to-cart">
+              <span class="price">
+                <span class="electro-price">
+                  <ins><span class="amount">
+                      <div class="star-rating" title="">
+
+                        <span style="width:0%">
+                          <strong itemprop="ratingValue" class="rating">4</strong><span itemprop="bestRating">5</span>
+
+                        </span>
+                      </div>
+                    </span></ins>
+                  <span class="amount"> </span>
+                </span>
+              </span>
+              <a rel="nofollow" style="color: #FDB133 !important;"
+                href="https://www.d2020.net/last_version/user/wishlist/87940" class="nav-link"><i
+                  class="ec ec-favorites"></i></a>
+            </div><!-- /.price-add-to-cart -->
+
+            <div class="hover-area">
+              <div class="action-buttons">
+
+
+              </div>
+            </div>
+          </div><!-- /.product-inner -->
+        </div><!-- /.product-outer -->
+      </div>
+    </div>
+  </ul>
 </template>

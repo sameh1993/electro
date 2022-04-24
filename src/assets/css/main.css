@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 88%;
+    max-width: 100% !important
+}
+
+@media (max-width: 992px) {
+    .site-header {
+        padding: 10px 0;
+    }
+    .site-header .handheld-header .header-logo {
+        text-align:right !important;
+    }
+    .header-logo {
+        margin-bottom: 0;
+    }
+    .handheld-header .handheld-navigation-wrapper {
+        float :left !important
+    }
+    .feature .media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .widget_electro_features_block_widget .features-list {
+        
+    padding: 34px 19px
+    }
+}
+
+@media (max-width: 767px) {
+    body > div {
+        overflow:hidden;
+    }
+    .handheld-header {
+        margin-bottom: 0;
+    }
+    .site-header .handheld-header .header-logo {
+        text-align:right;
+    }
+
+    .xs-text-center {
+        text-align: center;
+    }
+
+    .footer-logo img  {
+        margin:auto !important;
+    }
+
+    img {
+        margin: auto;
+    }
+
+    .feature .media >div {
+        width: 50%;
+    }
+
+}
+
+.header .h1 {
+    display:block;
+}
+

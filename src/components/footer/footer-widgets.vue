@@ -83,3 +83,10 @@
 		</div>
 	</div>
 </template>
+
+
+<style scoped>
+.footer-widgets {
+	margin-top: 85px;
+}
+</style>
